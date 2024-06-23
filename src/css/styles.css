@@ -40,3 +40,61 @@
 .gallery-image:focus {
   transform: scale(1.07);
 }
+
+/*? ================================================================== */
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input {
+  max-width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.form-text {
+  margin-bottom: 8px;
+  max-width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-button {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  transition: background-color 300ms ease;
+}
+
+.form-button:hover, 
+.form-button:focus {
+  background-color: #6c8cff;
+}
